@@ -1,0 +1,138 @@
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 12px;
+
+}
+.clearfix:after {
+     content: ".";
+     width: 0;
+     height: 0;
+     visibility: hidden;
+     display: block;
+     clear: both;
+     overflow:hidden;
+ }
+html {
+    height: 100%;
+}
+
+img {
+    border: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    margin: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.wBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#gm_footer{
+    margin-top: 15px;
+    zoom: 1;
+}
+#gm_footer_box{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+}
+#gm_footer span a{
+    color: #999;
+}
+
+#gm_footer p{
+    font: 12px/22px Arial;
+    color: #999;
+}
+#gm_footer ul{
+    overflow: hidden;
+}
+#gm_footer li{
+    float: left;
+    font: 12px/22px Arial,"Microsoft YaHei";
+    padding: 0 13px 0 0;
+    color: #ccc;
+    white-space: nowrap;
+}
+#gm_footer a{
+    color: #666;
+}
+.gm_footer_creat{
+    border-top: 1px solid #e6e6e6;
+    margin-top: 5px;
+    padding: 10px 0 25px;
+    overflow: hidden;
+}
+.gm_footer_creat i{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../img/index/ui.png) 0 -180px;
+    float: left;
+}
+.gm_footer_creat b{
+    font: 12px/18px Arial,"Microsoft YaHei";
+    display: block;
+    width: 50px;
+    float: left;
+    color: #999;
+    padding: 0 30px 0 5px;
+}
+.gm_footer_creat .creat_baxx b{
+    width:60px;
+}
+.gm_footer_creat .creat_kx i{
+    background-position: -35px -180px;
+}
+.gm_footer_creat .creat_cx i{
+    background-position: -70px -180px;
+}
+.gm_footer_creat .creat_cx b{
+    padding-top: 9px;
+}
+.gm_footer_creat .creat_cy i{
+    background-position: -105px -180px;
+}
+.gm_footer_creat .creat_wg i{
+    background-position: -140px -180px;
+}
+.gm_footer_creat .creat_wg b{
+    padding-top: 9px;
+    width: 60px;
+}
+.gm_footer_creat .creat_sh i{
+    background-position: -175px -180px;
+}
+.gm_footer_creat .creat_sh b{
+    width: 110px;
+}
+.gm_footer_creat .creat_yhh i{
+    background-position: -210px -180px;
+}
+.gm_footer_creat .creat_yhh b{
+    width: 106px;
+}
+.floor{
+    position: relative;
+    min-height: 480px;
+}
